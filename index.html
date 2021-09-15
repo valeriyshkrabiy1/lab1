@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Javascript</title>
+</head>
+<body>
+
+    <header class="header" id="header">
+        <nav class="nav">
+            <a class="nav__link" href="#">Home</a>
+            <a class="nav__link" href="#">About</a>
+            <a class="nav__link" href="#">Services</a>
+            <a class="nav__link" href="#">Contacts</a>
+        </nav>
+    </header>
+
+    <div class="page">
+        <button onclick="onClickButton(this)">Try me please</button>
+
+<p id="text" title="New text">Text</p>
+
+
+
+ <form id="main-form" method="post">
+    <label for="name">Имя:</label>
+    <input type="text" name="name" placeholder="Имя" id="name"><br><br>
+    <label for="password">Пароль:</label>
+    <input type="password" name="pass" placeholder="Пароль" id="pass"><br><br>
+    <label for="repass">Проверка пароля:</label>
+    <input type="password" name="repass" placeholder="Проверка пароля" id="repass">
+    <span>Пол:</span>
+    <input type="radio" name="state" id="male" value="Мужской">
+    <label for="male">Мужской</label>
+    <input type="radio" name="state" id="female" value="Женский">
+    <label for="female">Женский</label><br><br>
+    <div id="error" style="color: red"></div>
+    <input type="submit" name="submit" value="Готово">
+</form>
+
+        <section class="section">
+            <h2 class="section__title">Some section</h2>
+        </section>
+
+        <section class="section  section--gray">
+            <h2 class="section__title">Some section</h2>
+        </section>
+
+        <section class="section">
+            <h2 class="section__title">Some section</h2>
+        </section>
+
+        <section class="section  section--gray">
+            <h2 class="section__title">Some section</h2>
+        </section>
+    </div>
+
+    <script src="app.js"> 
+
+    </script>
+    
+</body>
+</html>
